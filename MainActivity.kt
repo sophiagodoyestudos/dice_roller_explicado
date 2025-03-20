@@ -1,3 +1,5 @@
+// Site utilizado para produção: https://developer.android.com/codelabs/basic-android-kotlin-compose-build-a-dice-roller-app?hl=pt-br#0 
+
 package br.com.ibm.diceroller
 
 import android.os.Bundle
