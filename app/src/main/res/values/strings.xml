@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll">Roll</string>
+</resources>
+
+<!--
+PARA QUE SERVE ESSE ARQUIVO?
+- Esse arquivo é usado para armazenar textos do aplicativo de forma organizada e facilitar a tradução para outros idiomas.
+
+1) <string name="app_name">Dice Roller</string>
+- Isso define o nome do aplicativo como "Dice Roller".
+- O sistema Android pode usar isso para exibir o nome do app na tela inicial e na barra de aplicativos.
+- Em vez de escrever "Dice Roller" diretamente no código Kotlin, agora você pode chamar R.string.app_name para referenciar esse valor.
+
+2) <string name="roll">Roll</string>
+- Isso cria um identificador chamado roll com o valor "Roll".
+- Essa string será usada no botão que rola o dado no aplicativo.
+- Em vez de escrever "Roll" diretamente no código, você pode chamar stringResource(R.string.roll) no Jetpack Compose.
+-->
